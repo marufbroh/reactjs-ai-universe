@@ -21,7 +21,7 @@ const Modal = (props) => {
                                     <div>
                                         <h3>Features</h3>
                                         {
-                                            Object.values(features || {}).map(value => <p>{value.feature_name}</p> )
+                                            Object.values(features || {}).map((value, index) => <p key={index}>{value.feature_name}</p> )
                                         }
                                     </div>
                                     <div>
