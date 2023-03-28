@@ -5,6 +5,7 @@ import Tools from './components/Tools/Tools';
 
 const App = () => {
   const [tools, setTools] = useState([]);
+  // console.log(tools)
   const [showAll, setShowAll] = useState(false)
 
   useEffect(() => {
